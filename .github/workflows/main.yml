@@ -36,7 +36,7 @@ jobs:
             fi
           done
           NEXT_VERSION=$((VERSION + 1))
-          echo "tag=\"${NEXT_VERSION}\"" >> $GITHUB_OUTPUT
+          echo "tag=${NEXT_VERSION}" >> $GITHUB_OUTPUT
 
       - name: Build Docker image
         run: |
