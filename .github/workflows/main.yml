@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Docker-Credentials
 
     env:
       IMAGE_NAME: kp6657/devopsproject
