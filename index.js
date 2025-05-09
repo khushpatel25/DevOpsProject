@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 6565;
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to DevOps Project!', version: '2.0.0' });
+    res.json({ message: 'Welcome to DevOps Project!', version: '1.0.2' });
 });
 
 app.listen(port, () => {
